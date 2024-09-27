@@ -1,5 +1,5 @@
 resource "helm_release" "suse_observability" {
-  depends_on = [helm_release.rancher]
+  depends_on = [module.rancher_cluster, module.suse_observability_cluster, helm_release.rancher]
   name       = "suse_observability"
 
   create_namespace = true

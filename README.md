@@ -1,5 +1,7 @@
 # Rancher & SUSE Observability on k3k
 
+Installs [k3k](https://github.com/rancher/k3k) on provided Kubernetes cluster.
+
 Deploys [k3k embedded k3s clusters](https://github.com/rancher/k3k) for Rancher Manager and [SUSE Observability](https://docs.stackstate.com/get-started/k8s-quick-start-guide) on a provided Kubernetes cluster. 
 
 ## Setup
